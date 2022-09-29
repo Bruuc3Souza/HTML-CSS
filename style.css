@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    color: white;
+}
+
+h1{
+    margin-left: 15px;
+}
+header{
+    border-bottom: solid;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+nav{
+    margin-right: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(174, 43, 226);
+    transition: 0.3s all;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: rgb(174, 43, 226);
+    
+}
