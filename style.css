@@ -9,17 +9,27 @@ body{
     font-family: 'Poppins', sans-serif;
     user-select: none;
     color: white;
+    background-image: url(blurry-gradient-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h2{
     margin-left: 15px;
 }
 header{
-    border-bottom: solid;
+
     color: white;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+
 
 }
 
@@ -37,10 +47,10 @@ a{
 }
 
 a:hover{
-    color: rgb(174, 43, 226);
+    color: #001122;
     transition: 0.3s all;
     border-bottom: solid;
     border-width: 3px;
-    border-color: rgb(174, 43, 226);
+    border-color: #001122;
     
 }
