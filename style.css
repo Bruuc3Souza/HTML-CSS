@@ -6,7 +6,13 @@
     font-family: Inter, sans-serif;
 }
 
-.nav{
+body{
+    background-image: url(blurry-gradient-haikei.svg);
+    background-size: cover;
+    position: relative;
+}
+
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,12 +22,21 @@
     margin-right: 50px;
 }
 
+.navnome>h1{
+    font-weight: 600;
+}
+
+
 .navlinks>a{
     margin-left: 30px;
     text-decoration: none;
     font-weight: 600;
     color: inherit
 }
+
+
+
+
 
 
 
